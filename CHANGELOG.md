@@ -1,5 +1,49 @@
 # Changelog
 
+## [2.2.0](https://github.com/jdx/hk/compare/v2.1.0..v2.2.0) - 2026-09-24
+
+### 🚀 Features
+
+- **(check)** add `--junit-xml` report of per-step results by [@sanga](https://github.com/sanga) in [#1432](https://github.com/jdx/hk/pull/1432)
+- **(hook)** expose git hook arguments to condition expressions by [@jdx](https://github.com/jdx) in [#1445](https://github.com/jdx/hk/pull/1445)
+- **(init)** discover nested source files with ignore rules by [@zeitlinger](https://github.com/zeitlinger) in [#1403](https://github.com/jdx/hk/pull/1403)
+
+### 🐛 Bug Fixes
+
+- **(init)** preserve existing mise configuration by [@zeitlinger](https://github.com/zeitlinger) in [#1404](https://github.com/jdx/hk/pull/1404)
+- **(init)** detect native biome and eslint configuration by [@zeitlinger](https://github.com/zeitlinger) in [#1402](https://github.com/jdx/hk/pull/1402)
+- exit like SIGPIPE instead of aborting when output's reader closes by [@jdx](https://github.com/jdx) in [#1442](https://github.com/jdx/hk/pull/1442)
+
+### 📚 Documentation
+
+- explain git hooks and parallel checks plainly by [@jdx](https://github.com/jdx) in [#1437](https://github.com/jdx/hk/pull/1437)
+
+### 🛡️ Security
+
+- remove Entire trail runners by [@jdx](https://github.com/jdx) in [#1443](https://github.com/jdx/hk/pull/1443)
+
+### 🔍 Other Changes
+
+- float jdx tools and aube on latest without a release-age delay by [@jdx](https://github.com/jdx) in [#1444](https://github.com/jdx/hk/pull/1444)
+
+### 📦️ Dependency Updates
+
+- update jdx/packslip action to v1.2.0 by [@renovate[bot]](https://github.com/renovate[bot]) in [#1420](https://github.com/jdx/hk/pull/1420)
+- lock file maintenance by [@renovate[bot]](https://github.com/renovate[bot]) in [#1411](https://github.com/jdx/hk/pull/1411)
+- update namespacelabs/nscloud-cache-action action to v1.7.0 by [@renovate[bot]](https://github.com/renovate[bot]) in [#1424](https://github.com/jdx/hk/pull/1424)
+- update dependency aube to latest by [@renovate[bot]](https://github.com/renovate[bot]) in [#1429](https://github.com/jdx/hk/pull/1429)
+- repair hk after lockfile maintenance and update mr-boxington-action to v1.4.0 by [@jdx](https://github.com/jdx) in [#1433](https://github.com/jdx/hk/pull/1433)
+- bump jdx/renovate-config workflows to c736149 by [@jdx](https://github.com/jdx) in [2c3e7e3](https://github.com/jdx/hk/commit/2c3e7e3ab89eb91fb9ec2d7ebf6818558eb9a0ad)
+- bump jdx/renovate-config workflows to aa49efc by [@jdx](https://github.com/jdx) in [e653613](https://github.com/jdx/hk/commit/e65361306cb49846737f620b9864bb870b94b9e9)
+- update rust crate usage-rs to v6.11.1 by [@renovate[bot]](https://github.com/renovate[bot]) in [#1438](https://github.com/jdx/hk/pull/1438)
+- bump jdx/renovate-config workflows to 5b46432 by [@jdx](https://github.com/jdx) in [07cf695](https://github.com/jdx/hk/commit/07cf6953a761a2addc94b92c5f8307240a1ab9df)
+- pin jdx/renovate-config workflows to v1.0.0 by [@jdx](https://github.com/jdx) in [9352ba3](https://github.com/jdx/hk/commit/9352ba33f0c792397ad34564f658e7721ef0f08f)
+- update communique to 1.4.2 in mise.lock by [@jdx](https://github.com/jdx) in [b76d087](https://github.com/jdx/hk/commit/b76d0876a4553cc7e0492da7b8b01e31b72f211c)
+
+### New Contributors
+
+- @sanga made their first contribution in [#1432](https://github.com/jdx/hk/pull/1432)
+
 ## [2.1.0](https://github.com/jdx/hk/compare/v2.0.1..v2.1.0) - 2026-09-23
 
 ### 🚀 Features
